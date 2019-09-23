@@ -2201,7 +2201,7 @@ fieldset input[type=text], fieldset input[type=url], fieldset input[type=email],
 
 @media (max-width: 575px) { fieldset input[type=text], fieldset input[type=url], fieldset input[type=email], fieldset input[type=number], fieldset input[type=password], fieldset input[type=date], fieldset input[type=tel], fieldset .vTextField, fieldset .vURLField, fieldset .vLargeTextField, fieldset .vTimeField, fieldset .vDateField { max-width: none; } }
 
-fieldset select:not([multiple="multiple"]) { border-radius: 0.25rem; }
+fieldset select:not([multiple="multiple"]) { border-radius: 0.25rem; width: 200px; height: auto; }
 
 fieldset input[type=number], fieldset input[type=date], fieldset input.vIntegerField, fieldset input.vIntegerField, fieldset input.vDateField, fieldset input.vTimeField, fieldset input.vForeignKeyRawIdAdminField { width: auto; }
 
